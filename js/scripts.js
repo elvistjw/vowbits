@@ -71,3 +71,7 @@ $(function () {
         $(this).addClass('active');
     });
 });
+
+function changeLogo(logo) {
+    document.getElementById("logo").src = logo;
+}
