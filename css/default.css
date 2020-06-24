@@ -68,6 +68,14 @@ body {
   text-align: left;
   background-color: #000000; }
 
+.logo {
+  width: 100px;
+}
+
+svg:hover path {
+  fill: #2979ff;
+}
+
 [tabindex="-1"]:focus {
   outline: 0 !important; }
 
@@ -3000,7 +3008,8 @@ input[type="button"].btn-block {
       align-items: center;
   -ms-flex-pack: justify;
       justify-content: space-between;
-  padding: 1.5rem 1.25rem; }
+  padding: 1.5rem 1.25rem; 
+}
   .navbar > .container,
   .navbar > .container-fluid {
     display: -ms-flexbox;
@@ -3044,6 +3053,7 @@ input[type="button"].btn-block {
   padding-bottom: 0.25rem; }
 
 .navbar-collapse {
+  background-color: #000c;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
   -ms-flex-positive: 1;
@@ -3112,6 +3122,7 @@ input[type="button"].btn-block {
 
 @media (min-width: 768px) {
   .navbar-expand-md {
+    padding-top: 5px;
     -ms-flex-flow: row nowrap;
         flex-flow: row nowrap;
     -ms-flex-pack: start;
